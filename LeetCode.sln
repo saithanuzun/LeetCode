@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two-Sum", "Two-Sum\Two-Sum.csproj", "{5BB161BC-5331-48F3-B903-CFA1EE30C38B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add-Two-Numbers", "Add-Two-Numbers\Add-Two-Numbers.csproj", "{3C473DBC-37DB-4C02-B9A2-A1A245E0665D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{5BB161BC-5331-48F3-B903-CFA1EE30C38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BB161BC-5331-48F3-B903-CFA1EE30C38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BB161BC-5331-48F3-B903-CFA1EE30C38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C473DBC-37DB-4C02-B9A2-A1A245E0665D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C473DBC-37DB-4C02-B9A2-A1A245E0665D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C473DBC-37DB-4C02-B9A2-A1A245E0665D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C473DBC-37DB-4C02-B9A2-A1A245E0665D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
