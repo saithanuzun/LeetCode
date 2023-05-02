@@ -9,7 +9,7 @@ class Program
 {
     public static void Main()
     {
-        string input1 = "234234", input2 = "234234";
+        string input1 = "2355", input2 = "2349";
 
         Console.WriteLine(Solution.AddStrings(input1, input2));
     }
@@ -27,15 +27,8 @@ public static class Solution
         var number2 = num2.Reverse().ToArray().SetArray(maxLength);
 
         int carry = 0;
-        int i = 0;
-        while ( i < maxLength || carry > 0)
+        for (int i = 0; i < maxLength; i++)
         {
-            if (i >= maxLength)
-            {
-                sb.Insert(0, carry);
-                break;
-            }
-            
             int sum = carry + number1[i].GetInt() + number2[i].GetInt();
             carry = 0;
 
@@ -43,14 +36,16 @@ public static class Solution
             {
                 carry = sum / 10;
                 sb.Insert(0, sum % 10);
-                i++;
                 continue;
             }
-
+            
             sb.Insert(0, sum);
-            i++;
         }
 
+        if (carry > 0)
+        {
+            sb.Insert(0, carry);
+        }
 
         return sb.ToString();
     }
