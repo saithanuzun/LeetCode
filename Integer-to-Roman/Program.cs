@@ -4,7 +4,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine(new Solution().IntToRoman(883));
+        Console.WriteLine(new Solution().IntToRoman(255));
     }
 }
 
