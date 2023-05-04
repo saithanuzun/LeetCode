@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integer-to-Roman", "Integer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse-Integer", "Reverse-Integer\Reverse-Integer.csproj", "{EA9C17E2-D051-466E-980C-2651DB322980}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome-Number", "Palindrome-Number\Palindrome-Number.csproj", "{EAC97A7B-CB16-4135-ABF1-91A76D3D895D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{EA9C17E2-D051-466E-980C-2651DB322980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA9C17E2-D051-466E-980C-2651DB322980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA9C17E2-D051-466E-980C-2651DB322980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC97A7B-CB16-4135-ABF1-91A76D3D895D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC97A7B-CB16-4135-ABF1-91A76D3D895D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC97A7B-CB16-4135-ABF1-91A76D3D895D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC97A7B-CB16-4135-ABF1-91A76D3D895D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
