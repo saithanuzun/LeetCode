@@ -6,7 +6,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine(new Solution().IsValid("(()[]())"));
+        Console.WriteLine(new Solution().IsValid("(()())"));
     }
 }
 
@@ -15,13 +15,12 @@ class Solution
     public bool IsValid(string s)
     {
         Stack<char> st = new();
-        var charArray = s.ToCharArray();
-
-        for (int i = 0; i < charArray.Length; i++)
+        
+        for (int i = 0; i < s.Length; i++)
         {
-            if (charArray[i] == '(' || charArray[i] == '[' || charArray[i] == '{')
+            if (s[i] == '(' || s[i] == '[' || s[i] == '{')
             {
-                st.Push(charArray[i]);
+                st.Push(s[i]);
                 continue;
             }
 
@@ -30,13 +29,13 @@ class Solution
 
             char top = st.Pop();
             
-            if (top == '(' && charArray[i] != ')')
+            if (top == '(' && s[i] != ')')
                 return false;
 
-            if (top == '[' && charArray[i] != ']')
+            if (top == '[' && s[i] != ']')
                 return false;
 
-            if (top == '{' && charArray[i] != '}')
+            if (top == '{' && s[i] != '}')
                 return false;
         }
 
